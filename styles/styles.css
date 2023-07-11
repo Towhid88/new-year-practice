@@ -6,7 +6,7 @@
     background: url("../images/banner/banner2.png");
     background-color: lightgray 50%;
     /* background-position: center; */
-margin: auto;
+    margin: auto;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     text-align: right;
     padding: 216px 245px 200px 845px;
     margin-right: 0%;
-    
+
 
 }
 
@@ -78,14 +78,15 @@ body {
     text-align: left;
     /* flex-direction: column; */
     /* display: flex; */
-
-    .section-description {
-        display: flex;
-        width: 416px;
-        flex-direction: column;
-        flex-shrink: 0;
-    }
 }
+
+.section-description {
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
 
 .section-title {
     display: flex;
@@ -96,4 +97,7 @@ body {
     font-size: 40px;
     font-weight: 700;
 
+}
+ul{
+    <i class="fa-solid fa-check"></i>
 }
