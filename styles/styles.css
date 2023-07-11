@@ -17,10 +17,8 @@ body {
     display: flex;
     width: 350px;
     flex-direction: column;
-    flex-shrink: 0;
     text-align: right;
     padding: 216px 245px 200px 845px;
-    margin-right: 0%;
 
 
 }
@@ -97,7 +95,4 @@ body {
     font-size: 40px;
     font-weight: 700;
 
-}
-ul{
-    <i class="fa-solid fa-check"></i>
 }
