@@ -1,27 +1,27 @@
 .header {
     width: 1600px;
-    ;
-    /* display: flex; */
+    display: flex;
     background-repeat: no-repeat;
     height: 809px;
     background: url("../images/banner/banner2.png");
     background-color: lightgray 50%;
     /* background-position: center; */
+margin: auto;
 }
 
 body {
-    font-family: 'Open Sans',
-        sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .banner-content {
     display: flex;
-    width: 330px;
+    width: 350px;
     flex-direction: column;
     flex-shrink: 0;
     text-align: right;
     padding: 216px 245px 200px 845px;
-margin-right:0%;
+    margin-right: 0%;
+    
 
 }
 
@@ -32,7 +32,8 @@ margin-right:0%;
 /* color: #444343; */
 /* text-align: right; */
 /* font-size: 16px; */
-/* font-weight: 400; */ */
+/* font-weight: 400; */
+*/
 /* line-height: 26px; */
 
 
@@ -62,5 +63,37 @@ margin-right:0%;
     height: 64px;
     /* flex-shrink: 0; */
     margin-left: auto;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-failure {
+    justify-content: space-between;
+    text-align: left;
+    /* flex-direction: column; */
+    /* display: flex; */
+
+    .section-description {
+        display: flex;
+        width: 416px;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+}
+
+.section-title {
+    display: flex;
+    width: 288px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
 
 }
